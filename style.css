@@ -1,0 +1,118 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main header section */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+section p, section ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Projects Section List */
+#projects ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#projects li {
+    margin: 10px 0;
+}
+
+#projects a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#projects a:hover {
+    color: #45a049;
+}
+
+/* Contact Section List */
+#contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact li {
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #45a049;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
